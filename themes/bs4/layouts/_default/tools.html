@@ -1,0 +1,105 @@
+ {{ define "main" }}
+
+ <div class="section mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Developer Tools</h1>
+                <p>
+                    I have developed various tools to assist developers in their day-to-day tasks. 
+                    These are all <strong>free</strong> and <strong>open-source</strong>.
+                </p>
+                <p>If you find these tools useful, it would be much appreciated if you could support me by telling your developer friends about them or spread the word on social media.</p>
+
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="row">
+                <div class="col-6 col-md-5 order-2 order-md-1">
+                    <img class="img-fluid mb-3 mb-md-0" src="/images/tools/dotnet-outdated.png" alt="">
+                </div>
+                <div class="col-md-7 pr-md-5 order-1 order-md-2">
+                    <h2>dotnet-outdated</h2>
+                    <p>
+                        When using an IDE such as Visual Studio, it is easy to find out whether newer versions of the NuGet packages used by your project is available, by using the NuGet Package Manager. 
+                        However, the .NET Core command-line tools do not provide a built-in way for you to report on outdated NuGet packages.
+                    </p>
+                    <p>
+                        <strong>dotnet-outdated</strong> is a .NET Core Global tool that allows you to quickly report on any outdated NuGet packages in your .NET Core and 
+                        .NET Standard projects.
+                    </p>
+                    <div class="d-flex flex-column flex-md-row lead mb-3">
+                        <a href="https://github.com/jerriep/dotnet-outdated" target="_blank" class="btn btn-md btn-outline-success mb-3 mb-md-0 mr-md-3">More Information</a>
+                    </div>
+                </div>
+            </div>              
+        </div>
+
+        <div class="row mt-5">
+            <div class="row">
+                <div class="col-6 col-md-5 order-2 order-md-1">
+                    <img class="img-fluid mb-3 mb-md-0" src="/images/tools/github-issues-cli.png" alt="">
+                </div>
+                <div class="col-md-7 pr-md-5 order-1 order-md-2">
+                    <h2>GitHub Issues CLI</h2>
+                    <p>
+                        You spend most of your time on the command-line, but every time you want to work with GitHub issues you have to open the browser window.
+                    </p>
+                    <p>
+                        <strong>GitHub Issues CLI</strong> is a command-line utility which allows you to manage your GitHub Issues from the command-line.
+                    </p>
+                    <div class="d-flex flex-column flex-md-row lead mb-3">
+                        <a href="https://github.com/jerriep/github-issues-cli" target="_blank" class="btn btn-md btn-outline-success mb-3 mb-md-0 mr-md-3">More Information</a>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    
+        <div class="row mt-5">
+            <div class="row">
+                <div class="col-6 col-md-5 order-2 order-md-1">
+                    <img class="img-fluid mb-3 mb-md-0" src="/images/tools/git-status-cli.png" alt="">
+                </div>
+                <div class="col-md-7 pr-md-5 order-1 order-md-2">
+                    <h2>Git Status CLI</h2>
+                    <p>
+                        The <code>git status</code> command allows you to report on the working tree status for any given repository. However, this only works on the current repository.
+                    </p>
+                    <p>
+                        <em>But what if you want to report on all repositories in a specific directory with its sub-directories?</em>
+                    </p>
+                    <p>
+                        <strong>Git Status CLI</strong> was written specifically for this purpose and allows you report the status of all repositories in a directory tree.
+                    </p>
+                    <div class="d-flex flex-column flex-md-row lead mb-3">
+                        <a href="https://github.com/jerriep/git-status-cli" target="_blank" class="btn btn-md btn-outline-success mb-3 mb-md-0 mr-md-3">More Information</a>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    
+        <div class="row mt-5">
+            <div class="row">
+                <div class="col-6 col-md-5 order-2 order-md-1">
+                    <img class="img-fluid mb-3 mb-md-0" src="/images/tools/copy-as-html.png" alt="">
+                </div>
+                <div class="col-md-7 pr-md-5 order-1 order-md-2">
+                    <h2>Copy Markdown as HTML</h2>
+                    <p>
+                        Visual Studio Code allows you to preview markdown as HTML, but it does not let you copy any of the generated preview HTML to the clipboard.
+                    </p>
+                    <p>
+                        <strong>Copy Markdown as HTML</strong> is a simple VS Code Extension that will enable you to highlight markdown in your document and copy it to the clipboard as HTML.
+                    </p>
+                    <div class="d-flex flex-column flex-md-row lead mb-3">
+                        <a href="https://marketplace.visualstudio.com/items?itemName=jerriepelser.copy-markdown-as-html" target="_blank" class="btn btn-md btn-outline-success mb-3 mb-md-0 mr-md-3">More Information</a>
+                    </div>
+                </div>
+            </div>              
+        </div>
+                
+    </div>
+</div>
+
+{{ end }}

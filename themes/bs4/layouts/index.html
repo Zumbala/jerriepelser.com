@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+        <h2 class="mb-3">My latest blog posts</h2>
+            {{ range first 10 (where .Data.Pages "Section" "blog") }}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{ .URL }}">{{ .Title }}</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{- .Date.Format "02 January 2006" -}}</h6>
+                    <p class="card-text">{{ .Description }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
+

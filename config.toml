@@ -1,0 +1,26 @@
+baseURL = "https://www.jerriepelser.com/"
+disablePathToLower = "false"
+languageCode = "en-us"
+title = "Jerrie Pelser's Blog"
+theme = "bs4"
+ignoreFiles = [ "\\_book$" ]
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+description = "Jerrie Pelser's personal website, blog and courses for ASP.NET developers looking to improve their skills"
+
+[permalinks]
+blog = "/:section/:slug"
+
+[author]
+name = "Jerrie Pelser"
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
+
+[frontmatter]
+date  = [":filename", ":default"]

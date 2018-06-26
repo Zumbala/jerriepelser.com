@@ -1,0 +1,29 @@
+{{ define "main" }} 
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            {{ if eq .Kind "taxonomy" }}
+                <h1 class="title">Blog Posts for: {{ .Title }}</h1>
+            {{ else }}
+                <h1 class="title">{{ .Title }}</h1>
+            {{ end }}
+
+            {{ range .Paginator.Pages }}
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{ .URL }}">{{ .Title }}</a></h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{- .Date.Format "02 January 2006" -}}</h6>
+                    <p class="card-text">{{ .Description }}</p>
+                </div>
+            </div>
+
+            {{ end }}
+        </div>
+    </div>
+
+    {{ partial "nav/pagination" . }}
+</div>
+
+{{ end }}

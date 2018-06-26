@@ -1,0 +1,25 @@
+<section class="space--xs blog-article-wide">
+    <div class="container">
+        <div class="row">
+            <div class="cta cta--horizontal text-center-xs">
+                <div class="col-sm-4">
+                    <h4>{{- .Date.Format "02 January 2006" -}}</h4>
+                </div>
+                <div class="col-sm-5">
+                    <p class="lead">
+                        {{ .Title }}
+                    </p>
+                </div>
+                <div class="col-sm-3 text-right text-center-xs">
+                    <a class="btn type--uppercase" href="{{ .URL }}">
+                            <span class="btn__text">
+                                Read Blog Post
+                            </span>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

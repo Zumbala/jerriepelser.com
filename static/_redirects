@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+/books-courses/airport-explorer /books/airport-explorer 301

@@ -1,0 +1,13 @@
+[context.production.environment]
+  HUGO_VERSION = "0.40.3"
+
+[context.deploy-preview]
+  command = "hugo --buildFuture"
+  [context.deploy-preview.environment]
+    HUGO_VERSION = "0.40.3"
+
+[context.branch-deploy]
+  command = "hugo --buildFuture"
+  [context.branch-deploy.environment]
+    HUGO_VERSION = "0.40.3"
+  

@@ -1,0 +1,34 @@
+{{ define "main" }} 
+
+{{ partial "support" . }}
+
+<div class="container-fluid">
+    <div class="row flex-xl-nowrap">
+
+    <button class="btn btn-outline-primary btn-block m-1 d-md-none" type="button" data-toggle="collapse" data-target="#bk-docs-nav" aria-controls="bk-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+        Table of Contents
+    </button>
+
+      <div class="col-12 col-md-3 col-xl-2 bk-sidebar">
+          {{ partial "docs-menu" . }}
+      </div>
+
+        <div class="d-none d-xl-block col-xl-2 bk-toc">
+            <h5>In this document</h5>
+            {{ .TableOfContents }}
+      </div>
+
+      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+        <h1 class="bk-title" id="content">{{ .Title }}</h1>
+        {{ .Content }}
+
+        <hr />
+        <p class="mt-55">
+            <strong>Hey, while you're here: </strong>I publish a weekly newsletter for ASP.NET Developers called ASP.NET Weekly, which helps you stay up to date on all the latest ASP.NET related news and blog posts. Please <a href="https://www.getrevue.co/profile/aspnetweekly" target="_blank">check it out and subscribe</a>!
+        </p>
+        <hr />
+      </main>
+    </div>
+</div>
+
+{{ end }}
