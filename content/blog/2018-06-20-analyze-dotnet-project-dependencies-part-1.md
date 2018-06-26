@@ -150,6 +150,6 @@ When processing the [source code for dotnet-outdated](https://github.com/jerriep
 
 ![Output when running application](/images/blog/2018-06-20-analyze-dotnet-project-dependencies-part-1/output.png)
 
-Next time, I'll dive a little bit deeper and look at how one can determine the transitive dependencies for a project.
+In the [next blog post](/blog/analyze-dotnet-project-dependencies-part-2/), I'll dive a little bit deeper and look at how one can determine the transitive dependencies for a project.
 
 I put together a sample application demonstrating these techniques, which you can find at [https://github.com/jerriepelser-blog/AnalyzeDotNetProject](https://github.com/jerriepelser-blog/AnalyzeDotNetProject).
