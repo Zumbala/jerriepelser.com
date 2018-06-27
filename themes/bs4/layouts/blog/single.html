@@ -6,8 +6,19 @@
 <div class="section">
     <div class="container">
        
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
+        <div class="row flex-xl-nowrap">
+
+            <div class="d-none d-lg-block col-lg-3 bk-toc">
+                <p>Did you notice any mistakes?</br>
+                    <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" class="btn btn-outline-secondary mt-2">
+                        <i class="fab fa-github mr-2"></i>Edit on GitHub
+                    </a>
+                </p>
+                <h5>In this document</h5>
+                {{ .TableOfContents }}
+            </div>
+
+            <main class="col-12 col-lg-9" role="main">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -45,21 +56,21 @@
                         
                         <div class="row mt-3">
                             <div class="col-md-12">
-                                <a  target="_blank" href="https://twitter.com/intent/tweet?{{ (querify "url" .Permalink "text" .Title ) | safeURL }}" class="btn btn-twitter btn-social">
-                                    <i class="fa fa-twitter mr-2"></i> Share on Twitter
+                                <a  target="_blank" href="https://twitter.com/intent/tweet?{{ (querify "url" .Permalink "text" .Title ) | safeURL }}" class="btn btn-outline-secondary">
+                                    <i class="fab fa-twitter"></i> Share on Twitter
                                 </a>
-                                <a target="_blank" href="http://www.linkedin.com/shareArticle?{{ (querify "url" .Permalink "title" .Title ) | safeURL }}" class="btn btn-linkedin btn-social">
-                                    <i class="fa fa-linkedin mr-3"></i> Share on LinkedIn
+                                <a target="_blank" href="http://www.linkedin.com/shareArticle?{{ (querify "url" .Permalink "title" .Title ) | safeURL }}" class="btn btn-outline-secondary">
+                                    <i class="fab fa-linkedin"></i> Share on LinkedIn
                                 </a>
-                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?{{ (querify "u" .Permalink ) | safeURL }}" class="btn btn-facebook btn-social">
-                                    <i class="fa fa-facebook-square mr-3"></i> Share on Facebook
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?{{ (querify "u" .Permalink ) | safeURL }}" class="btn btn-outline-secondary">
+                                    <i class="fab fa-facebook"></i> Share on Facebook
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
+            </main>
         </div>
     </div>
 </div>

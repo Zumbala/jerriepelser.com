@@ -10,6 +10,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
 description = "Jerrie Pelser's personal website, blog and courses for ASP.NET developers looking to improve their skills"
+ghrepo = "https://github.com/jerriep/jerriepelser.com/"
 
 [permalinks]
 blog = "/:section/:slug"
