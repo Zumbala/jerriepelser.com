@@ -14,11 +14,16 @@
       </div>
 
         <div class="d-none d-xl-block col-xl-2 bk-toc">
+            <p>Did you notice any mistakes?</br>
+                <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" class="btn btn-outline-secondary mt-2">
+                    <i class="fab fa-github mr-2"></i>Edit on GitHub
+                </a>
+            </p>
             <h5>In this document</h5>
             {{ .TableOfContents }}
       </div>
 
-      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+      <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bk-content" role="main">
         <h1 class="bk-title" id="content">{{ .Title }}</h1>
         {{ .Content }}
 
