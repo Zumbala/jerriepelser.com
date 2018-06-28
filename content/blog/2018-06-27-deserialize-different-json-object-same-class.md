@@ -9,7 +9,7 @@ tags:
 
 ## Introduction
 
-During the development of the [Auth0 .NET SDK](https://github.com/auth0/auth0.net), I came across an interesting scenario where some of the API endpoints in the [Auth0 Management API](https://auth0.com/docs/api/management/v2) returned differently structured JSON objects.
+During the development of the [Auth0 .NET SDK](https://github.com/auth0/auth0.net), I came across an interesting scenario where some of the API endpoints in the [Auth0 Management API](https://auth0.com/docs/api/management/v2) returned differently structured JSON payloads for errors.
 
 For example, some of the API endpoints returned the following JSON payload when an error occurred:
 
