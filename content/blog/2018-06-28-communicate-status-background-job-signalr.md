@@ -192,7 +192,7 @@ public class JobProgressHub : Hub
 }
 ```
 
-When I report the status from my background job using SignalR, I only want to send the status update to the user who initiated the background job. The way I handle this is with the `AssociateJob` method which creates a SignalR Group with the name of the **Job ID** and add the connection to that group. I can then send the progess message to that particular group.
+When I report the status from my background job using SignalR, I only want to send the status update to the user who initiated the background job. The way I handle this is with the `AssociateJob` method which creates a SignalR Group with the name of the **Job ID** and add the connection to that group. I can then send the progress message to that particular group.
 
 The `AssociateJob` method will be invoked later on from the client.
 
