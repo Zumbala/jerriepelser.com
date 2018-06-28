@@ -187,28 +187,16 @@ public class JobProgressHub : Hub
 {
     public async Task AssociateJob(string jobId)
     {
-        Context.Items.Add("JobId", jobId);
-
         await Groups.AddToGroupAsync(Context.ConnectionId, jobId);
-    }
-
-    public override async Task OnDisconnectedAsync(Exception exception)
-    {
-        if (Context.Items["JobId"] is string jobId)
-        {
-            await Groups.RemoveFromGroupAsync(Context.ConnectionId, jobId);
-        }
-
-        await base.OnDisconnectedAsync(exception);
     }
 }
 ```
 
-When I report the status from my background job using SignalR, I only want to send the status update to the user who initiated the background job. The way I handle this is to create a SignalR Group with the name of the **Job ID**. I added an `AssociateJob` method to my Hub which will handle this.
+When I report the status from my background job using SignalR, I only want to send the status update to the user who initiated the background job. The way I handle this is with the `AssociateJob` method which creates a SignalR Group with the name of the **Job ID** and add the connection to that group. I can then send the progess message to that particular group.
 
-I also add the **Job ID** to the Context items and then on the `OnDisconnectedAsync` method I check for that **Job ID** and remove the user from the group.
+The `AssociateJob` method will be invoked later on from the client.
 
-This way, when I report progress, I will just broadcast the progress message to that particular group.
+_**Please note**, when the connection is closed, it will automatically be removed from the group._
 
 You will also need to register a route for the hub. You can do this by calling the `UseSignalR` method in the `Configure` method of your `Startup` class and specifying a `/jobprogress` route for the hub we just created:
 
