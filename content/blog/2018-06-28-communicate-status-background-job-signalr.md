@@ -306,7 +306,7 @@ Head back to your `Progress.cshtml` file and update it as follows:
 }
 ```
 
-The code above creates a new connection on the `/jobprogress` URL, which is connected to our `JobProgressHub`. I also listed for that **progress** event to update the user interface with the status of the job. The final thing I do is to call the `AssociateJob` method on my `JobProgressHub` to associate this connection with the **Job ID**.
+The code above creates a new connection on the `/jobprogress` URL, which is connected to our `JobProgressHub`. I also subscribe to the **progress** event to update the user interface with the status of the job. The final thing I do is to call the `AssociateJob` method on my `JobProgressHub` to associate this connection with the **Job ID** after the connection has been started.
 
 ## Testing it out
 
