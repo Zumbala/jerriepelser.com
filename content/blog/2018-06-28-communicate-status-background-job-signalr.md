@@ -26,7 +26,7 @@ I started with a regular ASP.NET Core MVC application and added the Coravel pack
 dotnet add package Coravel
 ```
 
-The register to Coravel queueing services in your `Startup` class:
+Then, register the Coravel queueing services in your `Startup` class:
 
 ```csharp
 public class Startup
@@ -271,7 +271,9 @@ public class HomeController : Controller
 
 Note that I specified the name of the method as **progress**. When we create the JavaScript client, we will need to use that same name when listening for events.
 
-OK, so the final piece of the puzzle is to create the JavaScript client. Head back to your `Progress.cshtml` file and update it as follows:
+OK, so the final piece of the puzzle is to create the JavaScript client. You can refer to [the SignalR JavaScript client docs](https://docs.microsoft.com/en-us/aspnet/core/signalr/javascript-client) to see how to add the required JavaScript files to your application.
+
+Head back to your `Progress.cshtml` file and update it as follows:
 
 ```html
 @{
