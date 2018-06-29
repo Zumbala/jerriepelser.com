@@ -308,4 +308,6 @@ This demo application is certainly not what I would call _production ready_. For
 
 You get the idea. This is not a perfect application. It merely demonstrates how you can use SignalR for something other than your typical chat application. Feel free to use the techniques I described here as you please.
 
+You can read my next blog post to see how to [change the application's Favicon based on the status of the background job](/blog/change-favicon-application-state).
+
 Source code is available at [https://github.com/jerriepelser-blog/signalr-long-running](https://github.com/jerriepelser-blog/signalr-long-running).
