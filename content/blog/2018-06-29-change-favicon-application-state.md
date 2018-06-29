@@ -71,6 +71,7 @@ function changeFavicon(src) {
         document.head.removeChild(oldLink);
     }
     document.head.appendChild(link);
+}
 ```
 
 Here are some screenshots of the updated application in action, demonstrating each of these states. Note the different Favicon in each screenshot.
