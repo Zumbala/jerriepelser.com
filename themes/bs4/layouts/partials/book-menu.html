@@ -1,10 +1,12 @@
 <nav id="bk-docs-nav" class="collapse bk-links">
     {{ $currentPage := . }}
-
+    {{ $menuName := ( $currentPage.Parent.Param "menuname" ) }}
+    {{ $menu := index ( index $.Site.Menus  $menuName ) }}
+    
     <ul>
-    {{ range .Site.Menus.airportexplorer }}
+    {{ range $menu }}
         <li>
-            <a href="{{ .URL }}" {{if ($currentPage.IsMenuCurrent "airportexplorer" .) }}class="active"{{end}}>
+            <a href="{{ .URL }}" {{if ($currentPage.IsMenuCurrent $menuName .) }}class="active"{{end}}>
                 {{ .Name }}
             </a>
 
@@ -12,7 +14,7 @@
             <ul>
                 {{ range .Children }}
                 <li>
-                    <a href="{{ .URL }}" {{if ($currentPage.IsMenuCurrent "airportexplorer" .) }}class="active"{{end}}>
+                    <a href="{{ .URL }}" {{if ($currentPage.IsMenuCurrent $menuName .) }}class="active"{{end}}>
                         {{ .Name }}
                     </a>
                 </li>
