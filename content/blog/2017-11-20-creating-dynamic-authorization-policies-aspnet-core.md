@@ -188,7 +188,7 @@ public class AuthorizationPolicyProvider : DefaultAuthorizationPolicyProvider
 }
 ```
 
-> **Edit 1 July 2018**: I updated the code above to add the new policy to the `AuthorizationOptions` so that you do not have to create it each time. Thank you to Nick Flower who pointed this out to me. You can also [check out his blog post](https://0xnf.github.io/posts/oauthserver/15/#dynamically-handling-policies) about this.
+**Edit 1 July 2018**: I updated the code above to add the new policy to the `AuthorizationOptions` so that you do not have to create it each time. Thank you to Nick Flower who pointed this out to me. You can also [check out his blog post](https://0xnf.github.io/posts/oauthserver/15/#dynamically-handling-policies) about this.
 
 You will also need to register the `AuthorizationPolicyProvider` as a singleton in `ConfigureServices`, as well as remove all the calls to `AddPolicy`, as the policies will now be resolved dynamically.
 
