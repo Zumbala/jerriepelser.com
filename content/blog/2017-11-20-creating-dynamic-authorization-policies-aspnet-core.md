@@ -159,10 +159,12 @@ However, if the policy does not exist, it will assume that we want to restrict a
 ```csharp
 public class AuthorizationPolicyProvider : DefaultAuthorizationPolicyProvider
 {
+    private readonly AuthorizationOptions _options;
     private readonly IConfiguration _configuration;
 
     public AuthorizationPolicyProvider(IOptions<AuthorizationOptions> options, IConfiguration configuration) : base(options)
     {
+        _options = options.Value;
         _configuration = configuration;
     }
 
@@ -176,12 +178,17 @@ public class AuthorizationPolicyProvider : DefaultAuthorizationPolicyProvider
             policy = new AuthorizationPolicyBuilder()
                 .AddRequirements(new HasScopeRequirement(policyName, $"https://{_configuration["Auth0:Domain"]}/"))
                 .Build();
+
+            // Add policy to the AuthorizationOptions, so we don't have to re-create it each time
+            _options.AddPolicy(policyName, policy);
         }
 
         return policy;
     }
 }
 ```
+
+> **Edit 1 July 2018**: I updated the code above to add the new policy to the `AuthorizationOptions` so that you do not have to create it each time. Thank you to Nick Flower who pointed this out to me. You can also [check out his blog post](https://0xnf.github.io/posts/oauthserver/15/#dynamically-handling-policies) about this.
 
 You will also need to register the `AuthorizationPolicyProvider` as a singleton in `ConfigureServices`, as well as remove all the calls to `AddPolicy`, as the policies will now be resolved dynamically.
 
