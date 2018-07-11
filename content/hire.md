@@ -30,10 +30,6 @@ The following are some of my primary technologies I am familiar with:
 
 You can also view [my GitHub profile](https://github.com/jerriep/) to get an idea of the sort of work I do.
 
-## Rate
-
-My hourly rate for work is **US$ 60 - 80 per hour** depending on the type and duration of the project.
-
 ## Get in contact
 
 If you want to get in contact to inquire about hiring me, please send an email to **jerrie@jerriepelser.com**.
