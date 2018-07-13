@@ -21,7 +21,7 @@ You can launch GitHub Desktop from the command-line by running this `github` com
 
 ## 2. Navigate to repository
 
-To quickly navigate to a different repository, use `Ctrl+T` (on Windows) or `Cmd+T` (on a Mac) to open the repository list. You can then start typing the name of the repository to filter the list of repositories by that name quickly. Highlight the repository you want and press the `Enter`/`Return` key to open that repository. This is especially useful if, like me, you are working across many different repositories.
+To quickly navigate to a different repository, use `Ctrl+T` (on Windows) or `Cmd+T` (on a Mac) to open the repository list. You can then start typing the name of the repository to filter the list of repositories by that name quickly. Highlight the repository you want and press the `Enter` / `Return` key to open that repository. This is especially useful if, like me, you are working across many different repositories.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/navigate-to-repository.png"     data-gif="/images/blog/2018-07-13-github-desktop-tips/navigate-to-repository.gif"
@@ -31,7 +31,7 @@ To quickly navigate to a different repository, use `Ctrl+T` (on Windows) or `Cmd
 
 ## 3. Navigate to a branch
 
-Want to quickly switch to that feature branch you want to work on? Use `Ctrl+B`/`Cmd+B` to open the branch list and start typing the name of the branch to filter the list of branches quickly. Highlight the branch you want and press the `Enter`/`Return` key to switch to the branch.
+Want to quickly switch to that feature branch you want to work on? Use `Ctrl+B` / `Cmd+B` to open the branch list and start typing the name of the branch to filter the list of branches quickly. Highlight the branch you want and press the `Enter` / `Return` key to switch to the branch.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/navigate-to-branch.png"     data-gif="/images/blog/2018-07-13-github-desktop-tips/navigate-to-branch.gif"
@@ -41,7 +41,7 @@ Want to quickly switch to that feature branch you want to work on? Use `Ctrl+B`/
 
 ## 4. Create a new branch
 
-Want to create a new branch for a feature you are working on? Use `Ctrl+Shift+N`/`Cmd+Shift+N` to open the **Create a Branch** dialog.
+Want to create a new branch for a feature you are working on? Use `Ctrl+Shift+N` / `Cmd+Shift+N` to open the **Create a Branch** dialog.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/create-new-branch.png"
@@ -52,7 +52,7 @@ Want to create a new branch for a feature you are working on? Use `Ctrl+Shift+N`
 
 ## 5. Open the repository directory in File Explorer / Finder
 
-Often when working with a repository, you may want to open the directory containing the repository in File Explorer / Finder to view and operate on the files. You can do this by using the `Ctrl+Shift+F`/`Cmd+Shift+F` keyboard shortcut.
+Often when working with a repository, you may want to open the directory containing the repository in File Explorer / Finder to view and operate on the files. You can do this by using the `Ctrl+Shift+F` / `Cmd+Shift+F` keyboard shortcut.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/open-in-explorer.png"
@@ -63,7 +63,7 @@ Often when working with a repository, you may want to open the directory contain
 
 ## 6. Open the repository on GitHub.com
 
-You may also want to open the repository on the GitHub website. Use the `Ctrl+Shift+G`/`Cmd+Shift+G` shortcut to open the repository on github.com inside your web browser.
+You may also want to open the repository on the GitHub website. Use the `Ctrl+Shift+G` / `Cmd+Shift+G` shortcut to open the repository on github.com inside your web browser.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/open-in-github.png"
@@ -83,7 +83,7 @@ How about opening the directory containing the repository on the command line so
     alt="Open in command-line"
     />
 
-Bonus points for this being the same shortcut used to open the Terminal window in Visual Studio Code, so muscle memory kicks in. You can change the Default Shell in the GitHub Desktop Options (using `Ctrl+,`/`Cmd+,`).
+Bonus points for this being the same shortcut used to open the Terminal window in Visual Studio Code, so muscle memory kicks in. You can change the Default Shell in the GitHub Desktop Options (using `Ctrl+,` / `Cmd+,`).
 
 ## 8. Open repository in your editor
 
@@ -96,11 +96,11 @@ Want to start coding? Use the `Ctrl+Shift+A`/`Cmd+Shift+A` shortcut to open the 
     alt="Open in editor"
     />
 
-You can change the Default Code Editor in the GitHub Desktop Options (using `Ctrl+,`/`Cmd+,`).
+You can change the Default Code Editor in the GitHub Desktop Options (using `Ctrl+,` / `Cmd+,`).
 
 ## 9. Go over to the dark side
 
-Is dark mode your thing? Good news is that **since version 1.2.4**, you can switch between Light and Dark themes. Open the Options/Preferences using `Ctrl+,`/`Cmd+,`, and navigate to the _Appearance_ tab.
+Is dark mode your thing? Good news is that **since version 1.2.4**, you can switch between Light and Dark themes. Open the Options/Preferences using `Ctrl+,` / `Cmd+,` and navigate to the _Appearance_ tab.
 
 <img class="gifplayer" 
     src="/images/blog/2018-07-13-github-desktop-tips/dark-mode.png"
