@@ -16,7 +16,7 @@ I am comfortable working across the **entire stack** for web applications, and I
 
 I have a lot of experience working with **authentication and authorization** (specifically technologies such as OAuth, OpenID Connect and JWT), as I have been responsible for the development and maintenance of all the .NET SDKs, sample applications and tutorials for [Auth0](https://auth0.com/) over the past 2+ years. I have also been involved in various other open source projects related to OAuth 2.0.
 
-I blog on this website about .NET related topics and also curate [ASP.NET Weekly](https://www.getrevue.co/profile/aspnetweekly/), which is a weekly digest of all the best ASP.NET related news and blog posts.
+I blog on this website about .NET related topics and also curate [ASP.NET Weekly](https://www.getrevue.co/profile/aspnetweekly/), which is a weekly digest of all the best ASP.NET related news and blog posts. This newsletter curation process gives me a great awareness of the current state-of-the-art in software development, as well as the tools and technologies which are available to solve various application development issues.
 
 I am also the primary contributor and maintainer of [various open source utilities](/tools). Beside coding, running an Open Source project requires skills such as **product management, project management and customer support**.
 
