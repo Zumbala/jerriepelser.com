@@ -6,17 +6,19 @@ description: |
 
 ## What I bring to the table
 
-I have a career as a software developer which spans over 20 years. I have spent a lot of this time working as Team Lead on small teams or as the sole programmer building new applications from the ground up in industries such as Finance, Insurance, Human Resouces, Warehousing and more. 
+I have a career as a professional software developer which spans over 20 years. I have spent a lot of this time working as Team Lead on small teams or as the sole developer building new applications from the ground up in industries such as Finance, Insurance, Human Resouces, Warehousing and more. 
 
-I can take software projects _from conception to final delivery_ and _communicate frequently and clearly_ with clients to ensure they are at all times aware of the status of the project. At all times I am _honest with clients about my abilities_, and my 20+ years of experience allow me to make decisions which are in the best interest of the project.
+I can take software projects **from conception to final delivery**. At all times I am **honest with clients about my abilities**, and my 20+ years of experience allow me to make decisions which are in the **best interest of the project**.
 
-I am comfortable working across the entire stack for web applications, though my strength is in the back-end. I am also familiar with developing command-line and serverless applications.
+I have over three years experience in working either as a remote employee, or remotely as a freelancer which allows me to **work independently**, yet ensure that status of the project and related tasks are **communicated clearly** to all stakeholders at all times.
 
-I have vast experience working with authentication and authorization, as I have been responsible for the development and maintenance of all the .NET SDKs, sample applications and tutorials for [Auth0](https://auth0.com/) over the past 2+ years. I have also been involved in various other open source projects related to OAuth 2.0.
+I am comfortable working across the **entire stack** for web applications, and I am also familiar with other types of applications, such as command-line and serverless applications.
 
-I blog on this website about .NET related topics and also curate [ASP.NET Weekly](https://www.getrevue.co/profile/aspnetweekly/), which is a weekly digest of all the best ASP.NET related news and blog posts. 
+I have a lot of experience working with **authentication and authorization** (specifically technologies such as OAuth, OpenID Connect and JWT), as I have been responsible for the development and maintenance of all the .NET SDKs, sample applications and tutorials for [Auth0](https://auth0.com/) over the past 2+ years. I have also been involved in various other open source projects related to OAuth 2.0.
 
-Currently, I am the primary contributor and maintainer of [various open source utilities](/tools). 
+I blog on this website about .NET related topics and also curate [ASP.NET Weekly](https://www.getrevue.co/profile/aspnetweekly/), which is a weekly digest of all the best ASP.NET related news and blog posts.
+
+I am also the primary contributor and maintainer of [various open source utilities](/tools). Beside coding, running an Open Source project requires skills such as **product management, project management and customer support**.
 
 ## Work I am interested in
 
@@ -24,7 +26,7 @@ I am interested in either freelance work or permanent remote positions requiring
 
 ## Technologies I work with
 
-The following are some of my primary technologies I am familiar with:
+The following are some of the primary technologies I am familiar with and have recent experience with:
 
 * ASP.NET Core (MVC, Razor Pages and APIs)
 * HTML, JavaScript and CSS
@@ -35,8 +37,8 @@ The following are some of my primary technologies I am familiar with:
 * Auth0
 * Command-line applications
 
-You can view [my GitHub profile](https://github.com/jerriep/) to get an idea of the sort of work I do and also [download my resume](/resume.pdf)
+To get an idea of my experience and the work I do, you can view my [GitHub profile](https://github.com/jerriep/), my [blog posts](/blog) and also [download my resume](/resume.pdf)
 
 ## Get in contact
 
-If you want to get in contact to inquire about hiring me, please send an email to **jerrie@jerriepelser.com**.
+If you want to inquire about hiring me, please send an email to **jerrie@jerriepelser.com** to start the conversation.
