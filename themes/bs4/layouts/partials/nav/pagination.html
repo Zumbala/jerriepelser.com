@@ -2,11 +2,11 @@
 
 <div class="text-center">
   {{ with .Paginator.Prev }}
-  <a href="{{ .URL }}" class="btn btn-primary btn-round">Newer Posts</a>
+  <a href="{{ .URL }}" class="btn btn-outline-primary btn-round">Newer Posts</a>
   {{ end }}
   
   {{ with .Paginator.Next }}
-  <a href="{{ .URL }}" class="btn btn-primary btn-round">Older Posts</a>
+  <a href="{{ .URL }}" class="btn btn-outline-primary btn-round">Older Posts</a>
   {{ end }}
 </div>
 {{ end }}

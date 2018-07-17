@@ -46,6 +46,19 @@
 @import "book";
 @import "footer";
 
+a {
+    text-decoration: underline;
+}
+
+section.landing {
+    a {
+        text-decoration: underline dotted;
+    }
+}
+
+a.btn {
+    text-decoration: none;
+}
 
 p > img {
     max-width: 100%;
