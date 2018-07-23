@@ -43,4 +43,4 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 }
 ```
 
-This is much simpler than the [previous solutions to this problem](https://www.codeproject.com/Articles/1166099/Entity-Framework-Storing-complex-properties-as-JSO).
+**One important thing** I have noticed, however, is that when updating the entity and changing items in the dictionary, the EF change tracking does not pick up on the fact that the dictionary was updated, so you will need to explicitly call the `Update` method on the `DbSet<>` to set the entity to modified in the change tracker.
