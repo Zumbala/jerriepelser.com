@@ -14,7 +14,7 @@ Client-side JavaScript frameworks are all the rage these days. Frameworks like A
 
 For me personally, I am very comfortable developing websites in ASP.NET Core. The thing I like about those client-side frameworks, however, is the interactivity you can achieve. And the fact that you don't have to do full page-loads when doing many CRUD operations.
 
-So, what I like to be able to do is to use ASP.NET Core to develop my application, but be able to sprinkle a bit of interactivity into my web pages.
+Most of the applications I develop do not have a specific need to be full-blow, interactive, rich, client-side applications. For most of the stuff, a good old server-side rendered page will do just fine. But what I want to do is to be able to sprinkle a little bit of interactivity into some of those web pages to make the user experience better.
 
 In this series of blog posts, I want to show you that you may not need Angular after all. Or React. Or Vue.
 
