@@ -1,5 +1,5 @@
 ---
-title: "You might not need Angular: Introduction"
+title: "You might not need Angular"
 description:
   Introduction post to a series of blog posts that demonstrate how you can use the jQuery Unobtrusive Ajax library to achieve interactivity on normal, server-rendered ASP.NET Core applications
 tags:
