@@ -99,14 +99,6 @@ This takes the markdown I passed in, and converts it to the following HTML.
 ``` html 
 <p>Hello <strong>world</strong>, this is sample markdown <a href="http://www.somewhere.com">with a URL</a></p>
 ```
- 
-## More advanced example
-
-The example I used in this blog post was quite simple. I have also created another, more advanced example for my [AspnetCasts YouTube channel](http://www.aspnetcasts.com/), which you can view below. This example employs a few more advanced techniques such as specifying a JSON formatter, returning a JSON document and passing along OAuth credentials.
-
-Enjoy :)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Myv7Hb90s5A" frameborder="0" allowfullscreen></iframe>
 
 ## Conclusion
 
