@@ -46,7 +46,7 @@ I have always made most of my friends at work, and I enjoy the banter and laughs
 
 Auth0 has a company retreat once a year when everyone flies in from around the world and hang out together for a week. This is usually a great time, but it is fleeting and a stop-gap. It does not make up for the personal interaction which is missing the other 51 weeks of the year. Also, flying to a time-zone 12 hours away means that by the time I recovered from the jet-lag, the party was over and everyone had to head home again.
 
-During the retreat in 2016, I decided to hang around in the Bellevue for a while after the retreat and head to the office every day. One day I went for drinks after work with my colleagues, and I had a great time. At that time I realised how miss that. The crowd in the Bellevue office has socials quite often, and I think that is great - if you live there.
+During the retreat in 2016, I decided to hang around in Bellevue for a while after the retreat and head to the office every day. One day I went for drinks after work with my colleagues, and I had a great time. At that time I realised how I miss that. The crowd in the Bellevue office has socials quite often, and I think that is great - if you live there.
 
 Another thing was that I worked pretty much solo. I was part of a team, but I worked very much in isolation most of the time. My team was responsible for the documentation, but I worked a lot of the time of the .NET SDKs, Quickstarts and samples, so there was little daily interaction with my teammates. We had a weekly team meeting and often that was the only interaction I had with my teammates.
 
@@ -60,7 +60,9 @@ Maybe this was wrong of me. I should not have set the expectations that I am alw
 
 Even when on holiday people are regularly checking in and responding on Slack. This is not healthy.
 
-Also, because I am in Asia and the rest of my team was mostly in the Americas, it meant that at least once a week I had an online meeting which could easily carry on past midnight. Even if I go to bed immediately after the meeting I would easily struggle for an hour or more to fall asleep because my brain was still lit up from staring at the computer monitor the whole time.
+Also, because I am in Asia and the rest of my team was mostly in the Americas, it meant that at least once a week I had an online meeting which could easily carry on past midnight. 
+
+Even if I go to bed immediately after the meeting I would easily struggle for an hour or more to fall asleep because my brain was still lit up from staring at the computer monitor the whole time. Being an early riser, this would mean only about 4 to 5 hours of sleep on those days and left me grumpy the following day.
 
 ## The future
 
