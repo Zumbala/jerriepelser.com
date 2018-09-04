@@ -34,6 +34,8 @@ There are many advantages to remote work. The flexibility to work when and where
 
 This is my experience. Yours will be different.
 
+To you, neither of these may not be an issue. But, over time they wore me down.
+
 ### It gets lonely
 
 Loneliness is the number one complaint I often see from remote workers. And it was a real issue for me.
