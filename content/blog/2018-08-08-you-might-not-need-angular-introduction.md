@@ -10,6 +10,12 @@ tags:
 
 ## Introduction
 
+This is part of a series on using the jQuery Unobtrusive Ajax library in ASP.NET Core applications. Here are this list of posts:
+
+* You might not need Angular (this blog post)
+* [Deleting records in ASP.NET Core using AJAX](/blog/deleting-records-aspnet-core-ajax/)
+* [Deleting records in ASP.NET Core using AJAX with partial page refresh](/blog/deleting-records-aspnet-core-ajax-refreshing-page-section/)
+
 Client-side JavaScript frameworks are all the rage these days. Frameworks like Angular, React and Vue is what all the cool kids are using.
 
 For me personally, I am very comfortable developing websites in ASP.NET Core. The thing I like about those client-side frameworks, however, is the interactivity you can achieve. And the fact that you don't have to do full page-loads when doing many CRUD operations.

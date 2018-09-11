@@ -1,7 +1,7 @@
 ---
 title: "Deleting records in ASP.NET Core using AJAX"
 description:
-  You can delete records and update the user interface using Ajax, which give a much better user experience that refreshing the entire page.
+  You can delete records and update the user interface using Ajax, which gives a much better user experience that refreshing the entire page.
 tags:
 - asp.net core
 - jquery
@@ -9,6 +9,12 @@ tags:
 ---
 
 ## Introduction
+
+This is part of a series on using the jQuery Unobtrusive Ajax library in ASP.NET Core applications. Here are this list of posts:
+
+* [You might not need Angular](/blog/you-might-not-need-angular-introduction/)
+* Deleting records in ASP.NET Core using AJAX (this blog post)
+* [Deleting records in ASP.NET Core using AJAX with partial page refresh](/blog/deleting-records-aspnet-core-ajax-refreshing-page-section/)
 
 In my [introductory post](/blog/you-might-not-need-angular-introduction/) I mentioned that you could achieve a lot of the interactivity of client-side frameworks, such as Angular, by using tried and tested techniques such as Ajax. This allows you to selectively apply these techniques to an existing code-base without having to go all-in on one of these modern client-side frameworks - which very often bring a lot of complexity with them as well.
 
@@ -155,4 +161,4 @@ With that in place, here is another animation demonstrating this improved versio
 
 In this blog post, I showed how you could create a better user experience using Ajax to delete a customer record. It is a relatively simple process which can be added to an existing code base and does not require you to go all-in on any of the modern JavaScript frameworks.
 
-Source code is available at [https://github.com/jerriepelser-blog/aspnetcore-ajax](https://github.com/jerriepelser-blog/aspnetcore-ajax).
+Source code is available at [https://github.com/jerriepelser-blog/aspnetcore-ajax](https://github.com/jerriepelser-blog/aspnetcore-ajax). Have a look at the **Scenario 1** controller and views.
