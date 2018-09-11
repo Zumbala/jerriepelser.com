@@ -11,7 +11,7 @@ url: /blog/using-jsonextensiondata-with-jsonnet/
 
 ## Background
 
-One of the ussues we faced when developing the .NET SDK for Auth0 was that user profiles can have different properties based on the origin of the user profile. There are a set of [standard properties](https://auth0.com/docs/user-profile/normalized) for a user profile, but over and above that many of the providers can "enhance" the user profile with extra properties.
+One of the issues we faced when developing the .NET SDK for Auth0 was that user profiles can have different properties based on the origin of the user profile. There are a set of [standard properties](https://auth0.com/docs/user-profile/normalized) for a user profile, but over and above that many of the providers can "enhance" the user profile with extra properties.
 
 Here is an example of a user profile for a database user:
 
