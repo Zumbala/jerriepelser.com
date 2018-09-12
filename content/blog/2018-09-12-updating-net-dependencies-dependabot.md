@@ -35,7 +35,7 @@ This will take you to the Dependabot page on the GitHub Marketplace. Scroll down
 
 ![Install Dependabot for free](/images/blog/2018-09-12-updating-net-dependencies-dependabot/install-dependabot-for-free.png)
 
-Review your order and select the **Complete order and begin installation** button.
+Review your order and click the **Complete order and begin installation** button.
 
 ![Review your GitHub Marketplace order](/images/blog/2018-09-12-updating-net-dependencies-dependabot/review-order.png)
 
@@ -71,11 +71,11 @@ When I head over to the _Files changed_ tab, I can see that the two project file
 
 ![GitHub PR files changed](/images/blog/2018-09-12-updating-net-dependencies-dependabot/github-pr-files-changed.png)
 
-After a while, my AppVeyor build has completed, I can see that all checks have passed.
+After a while, my AppVeyor build has completed and I can see that all checks have passed.
 
 ![GitHub PR checks have passed](/images/blog/2018-09-12-updating-net-dependencies-dependabot/github-pr-checks-completed.png)
 
-At this point, given that my test coverage is good, I can be sure that upgrading this dependency has not caused any issues and I can simply merge the Pull Request.
+At this point, given that my test coverage is good, I can be sure that upgrading this dependency will not cause any issues and I can merge the Pull Request.
 
 ![GitHub PR merged](/images/blog/2018-09-12-updating-net-dependencies-dependabot/github-pr-merged.png)
 
@@ -89,8 +89,10 @@ Thankfully, since I have configured AppVeyor to run my application's tests when 
 
 ![GitHub PR checks failing](/images/blog/2018-09-12-updating-net-dependencies-dependabot/github-pr-checks-failing.png)
 
-This gives me the opportunity to look and the AppVeyor logs to see what the error is that occurred. I can then out that PR locally and make updates to my code.
+This gives me the opportunity to look and the AppVeyor logs to see what the error is that occurred. I can then check out that PR locally and make updates to my code to fix the error.
 
 ## Conclusion
 
 Dependabot provides a great, hands-off way to automatically keep your project's dependencies up to date. Dependabot allows for a number of configuration options, such as how often outdated dependencies should be checked, as well as whether to automatically merge PRs if all checks have been passed successfully.
+
+Dependabot also works with a wide range of programming languages so you can, for example, also upgrade the NPM packages used in your JavaScript application. If you're using Docker it can even update the base images for your Docker files.
