@@ -16,7 +16,7 @@ ANSI escape codes allow you to perform a range of manipulations in console appli
 
 In this blog post, I will look specifically at the colour codes and how you can use them in .NET Core console applications. I will also discuss why you should probably avoid using them - especially when developing applications for Windows.
 
-**Update on 22 October 2018**: Manuel Riezebosch notified me of a library he wrote called [Crayon](https://github.com/riezebosch/Crayon) that wraps the techniques I describe in the blog posts. Please check it out if you want to use these techniques.
+**Update on 22 October 2018**: Manuel Riezebosch notified me of a library he wrote called [Crayon](https://github.com/riezebosch/Crayon) that wraps the techniques I describe in this blog posts. Please check it out if you want to use these techniques.
 
 ## A brief overview of using the ANSI codes
 
