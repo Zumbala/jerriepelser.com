@@ -1,5 +1,5 @@
 ---
-title: "Using Auth0 with Vue and oidc-client-js"
+title: "Using Auth0 with Vue and oidc-client.js"
 description:
   Shows how you can make use of the oidc-client JavaScript library to enable users to log in to your Vue application with Auth0.
 tags:
@@ -109,7 +109,7 @@ Under normal circumstances, **oidc-client** will automatically determine all the
 
 **oidc-client** allows for manually specifying information typically supplied in the OIDC Discovery Document by passing a `meta` setting atrtribute, but it does not allow you to override just a single value - it is an all-or-nothing situation. You can see in the sample code above that I supplied all the relevant values in the `meta` attribute of the `settings`.
 
-## Create the callback URL
+## Handling the callback URL
 
 In the configuration above, you will notice that the `redirect_uri` is specified as `http://localhost:8080/callback.html`. This is where Auth0 will redirect the user back to your application after they have authenticated. This is the same value we specified earlier for **Allowed Callback URLs** when registering the application in the Auth0 Dashboard.
 
@@ -237,4 +237,4 @@ Clicking on the **Log In** button sends us back to our Vue application where we 
 
 This blog post demonstrated how you could make use of the **oidc-client** library to enable users to log in to your Vue application with Auth0. Source code is available at [https://github.com/jerriepelser-blog/auth0-vue-oidc-client](https://github.com/jerriepelser-blog/auth0-vue-oidc-client)
 
-Next time, we'll look at displaying a user profile page and protecting routes so only logged in user's can access them.
+[Next time](/blog/secure-vue-routes-auth0-oidc-client), we'll look at displaying a user profile page and protecting routes so only logged in user's can access them.
