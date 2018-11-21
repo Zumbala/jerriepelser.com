@@ -107,7 +107,7 @@ The `AuthService` class instantiates a new instance of the `UserManager` class a
 
 Under normal circumstances, **oidc-client** will automatically determine all the relevant endpoints and other information for an OIDC-enabled Identity Provider such as Auth0 through the [OIDC discovery document](https://openid.net/specs/openid-connect-discovery-1_0.html). Unfortunately, Auth0 does not specify a logout endpoint (`end_session_endpoint`) in the discovery document, meaning that it has to be supplied manually.
 
-**oidc-client** allows for manually specifying information typically supplied in the OIDC Discovery Document by passing a `meta` setting atrtribute, but it does not allow you to override just a single value - it is an all-or-nothing situation. You can see in the sample code above that I supplied all the relevant values in the `meta` attribute of the `settings`.
+**oidc-client** allows for manually specifying information typically supplied in the OIDC Discovery Document by passing a `meta` setting attribute, but it does not allow you to override just a single value - it is an all-or-nothing situation. You can see in the sample code above that I supplied all the relevant values in the `meta` attribute of the `settings`.
 
 ## Handling the callback URL
 
