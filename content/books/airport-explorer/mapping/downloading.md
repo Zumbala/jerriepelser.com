@@ -19,7 +19,7 @@ Download this file in your web browser, and copy it to the `wwwroot` folder of y
 
 ## File structure
 
-If you the file in Visual Studio, you will notice that it contains a comma-separated list of values:
+If you open the file in Visual Studio, you will notice that it contains a comma-separated list of values:
 
 ```text
 1,"Goroka Airport","Goroka","Papua New Guinea","GKA","AYGA",-6.081689834590001,145.391998291,5282,10,"U","Pacific/Port_Moresby","airport","OurAirports"
