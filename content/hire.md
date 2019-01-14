@@ -2,7 +2,6 @@
 title: Hire Me
 description: |
   Information on how to hire me for your project, as well as the type of projects I am interested in.
-draft: true
 ---
 
 ## What I bring to the table
