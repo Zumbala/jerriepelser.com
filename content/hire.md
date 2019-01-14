@@ -22,7 +22,7 @@ I am also the primary contributor and maintainer of [various open source utiliti
 
 ## Work I am interested in
 
-I am interested in either freelance work or permanent remote positions requiring C#, .NET Core or ASP.NET Core skills - either as part of an existing team or working solo on a stand-alone project or proof-of-concept.
+I am interested in freelance work requiring C#, .NET Core or ASP.NET Core skills - either as part of an existing team or working solo on a stand-alone project or proof-of-concept.
 
 ## Technologies I work with
 
