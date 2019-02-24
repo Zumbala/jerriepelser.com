@@ -4,11 +4,13 @@ description: |
   Information on how to hire me for your project, as well as the type of projects I am interested in.
 ---
 
-_Do you need an extra helping hand for your project for a short period?_
+<br/>
+#### _Do you need an extra helping hand for your project for a short period?_
+<br/>
 
 Perhaps you need someone to implement a small proof-of-concept or a code spike, but your development team is tied up?
 
-I can help.
+**I can help**
 
 I am available to assist you on short-term projects which typically fall outside the scope or expertise of your regular development team.
 
