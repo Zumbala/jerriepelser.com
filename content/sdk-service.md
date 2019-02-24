@@ -25,13 +25,14 @@ This service covers the following:
 * Developing code samples and quickstarts to assist developers in integrating your APIs into their applications more easily
 * Develop a full suite of unit and integration tests and setting up Continuous Integration (CI) to run these for all pull requests and releases
 * Configuring Continuous Delivery (CD) to handle deployment to NuGet and MyGet
+* Maintain release notes to document changes between versions. Supply migration guides when introducing breaking changes
 * Triage and respond to GitHub issues and pull requests, as well as configuring GitHub issue and pull requests templates
 * Working with your support team to ensure that they have the correct knowledge to support developers using the .NET SDKs 
 * Working with your development team to ensure that the .NET SDKs support new features added to your APIs in a timely manner
 
 ## Portfolio
 
-You can find examples of the open source tools I maintain in my personal capacity on my [Tools](/tools) page.
+You can find examples of the open source tools I maintain on my [Tools](/tools) page.
 
 Here are some examples of SDKs and sample applications I have been responsible:
 
