@@ -6,9 +6,13 @@ description: |
 
 ## Introduction
 
-Having a proper suite of .NET SDKs, documentation and code samples ensures that .NET developers can more easily integrate with your application and can give you a distinct advantage over your competition in the eyes of these developers.
+Does your company develop software and APIs primarily targeted at developers? Are these APIs being used by .NET developers to integrate your service into their applications?
 
-Are you a company that need .NET SDKs developed for your application and APIs, but you do not have the in-house resources to handle this?
+Creating a great developer experience and allowing developers to integrate your service into their applications easily is crucial for rapid adoption. It is essential to have a proper suite of .NET SDKs, documentation and code samples to aid in this adoption. It will not only make the developer experience better but can give you a distinct advantage over your competition in the eyes of these developers.
+
+Does your company lack the in-house .NET skills to develop these SDKs?
+
+**I can help**
 
 ## The service 
 
