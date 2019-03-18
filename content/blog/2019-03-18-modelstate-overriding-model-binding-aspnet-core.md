@@ -64,9 +64,9 @@ In the end, it turned out to be an issue with the ModelState. When debugging the
 
 ![](/images/blog/2019-03-18-modelstate-overriding-model-binding-aspnet-core/model-state.png)
 
-I am not 100% sure about the data binding internals, but it appears that the data binding mechanisms will favour any values contained in the ModelState over the actual model being passed to the `PartialView()` method call.
+I am not 100% sure about the data binding internals, but it appears that the data binding mechanisms will favour any values contained in the ModelState over the actual model being passed to the `PartialView()` method call. This is probably the correct behaviour in most cases, but in my case I did not want this behaviour.
 
-Understanding this behaviour, I added a call to `ModelState.Clear()` before the partial view is being rendered.
+Understanding the underlying issue, I worked around it by adding a call to `ModelState.Clear()` before the partial view is being rendered.
 
 ```csharp
 [HttpPost]
