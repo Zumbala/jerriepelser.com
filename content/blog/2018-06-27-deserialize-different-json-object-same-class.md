@@ -111,7 +111,7 @@ public class ApiErrorConverter : JsonConverter
                 name = jp.Name;
 
             PropertyInfo prop = props.FirstOrDefault(pi =>
-                pi.CanWrite && pi.GetCustomAttribute<JsonPropertyAttribute>().PropertyName == name);
+                pi.CanWrite && pi.GetCustomAttribute<JsonPropertyAttribute>()?.PropertyName == name);
 
             prop?.SetValue(instance, jp.Value.ToObject(prop.PropertyType, serializer));
         }
